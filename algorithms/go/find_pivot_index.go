@@ -4,11 +4,10 @@ import "fmt"
 
 func main() {
 	testCase := [...]int{-1, -1, 0, 1, 1, 0}
-	//testCase := [...]int{1, 7, 3, 6, 5, 6}
 
 	ans := pivotIndex(testCase[:])
 
-	fmt.Println("ans: ", ans) // 0
+	fmt.Println("ans: ", ans)
 }
 
 func pivotIndex(nums []int) int {

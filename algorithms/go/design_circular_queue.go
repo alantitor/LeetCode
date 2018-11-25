@@ -24,8 +24,8 @@ func Constructor(k int) MyCircularQueue {
 	queue.data = make([]int, k)
 	queue.capacity = k
 	queue.length = 0
-	queue.rear = -1
-	queue.front = -1
+	queue.rear = 0
+	queue.front = 0
 	return queue
 }
 
